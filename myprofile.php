@@ -1,7 +1,7 @@
 <?php 
 
 require 'config.php';
-
+    
 /*$_SESSION['USERNAME'] = $fnameMyProfile;*/
 /*die('test');*/
 /*$fname = $_REQUEST['fname'];*/
