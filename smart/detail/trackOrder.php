@@ -21,6 +21,7 @@ require_once '../config.php';
 	  
 		<?php include "../layout/leftsidebar.php"; ?>
 		<div class="col-sm-8" style="height: 400px;">
+			<div class="scroll">
 			<br><br>
 			<br><br>
 			
@@ -38,6 +39,7 @@ require_once '../config.php';
 					<button type="submit">TRACK</button>
 				</form>
 			</center>
+			</div>
 		</div>
 		<?php include "../layout/rightsidebar.php"; ?>
 	   	<?php include "../layout/footer.php"; ?>

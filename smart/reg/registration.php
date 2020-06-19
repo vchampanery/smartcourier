@@ -81,7 +81,7 @@ echo $password."<br>";
 					<input type="submit" name="back" value="back" class="btn btn-info" onclick="back_redirection();">
 					</center>
 				</form>
-				</div>
+				</div> 
 			</div>
 			<?php include "../layout/rightsidebar.php"; ?>
 	   		<?php include "../layout/footer.php"; ?>

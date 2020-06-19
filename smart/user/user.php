@@ -1,8 +1,4 @@
 <?php 
-
-
-
-
 require '../config.php';
 
 
@@ -28,7 +24,8 @@ $userListObj = $result -> fetch_all(MYSQLI_ASSOC);
 	   <?php include "../layout/header.php"; ?>
 	  
 	     	<?php include "../layout/leftsidebar.php"; ?>
-	     	<div class="col-sm-8" style="height: 560px;">
+	     	<div class="col-sm-8" style="height: 400px;">
+	     		<div class="scroll">
 	     		<center>
 					<hr>
 					<table id="myTable">
@@ -54,6 +51,7 @@ $userListObj = $result -> fetch_all(MYSQLI_ASSOC);
 						</tbody>
 					</table>
 				</center>
+				</div>
 	     	</div>
 	     	<?php include "../layout/rightsidebar.php"; ?>
 	     	<?php include "../layout/footer.php"; ?>

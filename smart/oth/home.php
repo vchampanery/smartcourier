@@ -29,41 +29,27 @@ require_once '../config.php';
 	<div class="container">
 	    <div class="row">
 	    <?php include "../layout/header.php"; ?>
-	  
-	     	<?php include "../layout/leftsidebar.php"; ?>
+	    <?php include "../layout/leftsidebar.php"; ?>
 	     	<div class="col-sm-8" style="height: 400px;">
 	     		<div class="scroll">
 	     <!-- 		<img src="cr_background.jpg" height="560 px" width="500 px"	> -->
 	     		<center>
-		<!-- 			<h3>Select Your City:-</h3>
-	        		<div class="dropdown">
-					    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-					      City
-					    </button>
-				    <div class="dropdown-menu">
-					    <a class="dropdown-item" href="#">Ahmedabad</a>
-					    <a class="dropdown-item" href="#">Mehsana</a>
-					    <a class="dropdown-item" href="#">Surat</a>
-					    <a class="dropdown-item" href="#">Rajkot</a>
-					    <a class="dropdown-item" href="#">Vadodara</a>
-					    <a class="dropdown-item" href="#">Bhavnagar</a>
-					    <a class="dropdown-item" href="#">Jamnagar</a>
-					    <a class="dropdown-item" href="#">Junagadh</a>
-					    <a class="dropdown-item" href="#">Anand</a>
-					    <a class="dropdown-item" href="#">Gandhinagar</a>
-					    <a class="dropdown-item" href="#">Kutch</a>
-					    <a class="dropdown-item" href="#"></a>
-				    </div>
-		-->		</center>
+		 			<h3>Select Your City:-</h3>
+	        		<label for="city"></label>
+	        		<select>
+	        			<option value="Ahmedabad"><a href="../city/ahmedabad.php">Ahmedabad</a></option>
+	        			<option value="Patan"><a href="../city/ahmedabad.php">Patan</a></option>
+	        			<option value="Mehsana"><a href="../city/ahmedabad.php">Mehsana</a></option>
+	        			<option value="Surat"><a href="../city/ahmedabad.php">Surat</a></option>
+	        		</select><br><br><br><br>
+	        		<!-- <img src="https://media.giphy.com/media/QBqTS9XBErS1rEvqyn/source.gif" width="200px" height="200px"> -->
+				</center>
 		 		</div>
 	     	</div>
 	     	<?php include "../layout/rightsidebar.php"; ?>
 	     	<?php include "../layout/footer.php"; ?>
 	    </div>
 	</div>
-	<center>
-		
-	</center>
 	
 </body>
 </html>

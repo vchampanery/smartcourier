@@ -21,6 +21,7 @@ if(session_status() == PHP_SESSION_NONE){
 <body>
 	<div class="container">
 	<div class="row">
+		<div class="scroll">
 		<?php include "../layout/header.php"; ?>
 	  
 		<?php include "../layout/leftsidebar.php"; ?>
@@ -44,6 +45,7 @@ if(session_status() == PHP_SESSION_NONE){
 		</div>
 		<?php include "../layout/rightsidebar.php"; ?>
 	   	<?php include "../layout/footer.php"; ?>
+	   	</div>
 	</div>
 	</div>
     <script type="text/javascript">

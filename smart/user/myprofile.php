@@ -31,6 +31,7 @@ $value = $userListObj[0];
 	  
 	     	<?php include "../layout/leftsidebar.php"; ?>
 	     	<div class="col-sm-8" style="height: 400px;">
+	     		<div class="scroll">
 	     		<center>
 					<hr>
 					<table id="myTable" border="5">
@@ -51,6 +52,7 @@ $value = $userListObj[0];
 						</tbody>
 					</table>
 				</center>
+				</div>
 	     	</div>
 	     	<?php include "../layout/rightsidebar.php"; ?>
 	     	<?php include "../layout/footer.php"; ?>

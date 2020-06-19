@@ -1,0 +1,21 @@
+user:-
+	user table is use for coustomsers information.
+	user table contain user_id,name,email,mobilenumber and etc.
+	
+company:-
+	company table is use for company information.
+	company table contain that  company detail which  ccompany is tieup with us.
+	company table contain  comp_id,name,mobilenumber,email,address and etc.
+
+order status:-
+	order status is use for showing us to order status.
+	order status are ass follow.
+	1) order is ready to pick up.
+	2) order is delevier to couirer compaany.
+	3) parcel is out for deliver address.
+	4) parcel is deliver at address.
+	5) out of order.
+
+order details:-
+	this table conatin datails about order like a order_id,status,date,payment and etc.
+
